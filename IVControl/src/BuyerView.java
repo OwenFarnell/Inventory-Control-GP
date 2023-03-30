@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.io.File;
 
 public class BuyerView {
 	
@@ -41,11 +42,11 @@ public class BuyerView {
 		
 		for(int i = 0; i < 10; i++) {
 			
-//			String SKU = file.next();
-//			String name = file.next();
-//			int amount = file.nextInt();
-//			int retail_cost = file.nextInt();
-//			int wholesale_cost = file.nextInt();
+			String SKU = file.next();
+			String name = file.next();
+			int amount = file.nextInt();
+			double retailCost = file.nextInt();
+			double wholesaleCost = file.nextInt();
 			
 			System.out.println(counter + ") ");
 			counter++;
